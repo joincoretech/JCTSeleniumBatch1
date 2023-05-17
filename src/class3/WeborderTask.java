@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.List;
+
 public class WeborderTask {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
@@ -31,6 +33,9 @@ public class WeborderTask {
 
       driver.findElement(By.partialLinkText("Log")).click();
       driver.quit();
+
+
+
 
     }
 }
