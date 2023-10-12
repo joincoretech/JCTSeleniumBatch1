@@ -1,5 +1,6 @@
 package Utiles;
 
+import POM.BaseClasses.BaseClass;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -10,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class CommonMethod {
+public class CommonMethod  {
     
         public static   WebDriver driver;
         
